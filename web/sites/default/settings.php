@@ -290,7 +290,7 @@ $settings['config_sync_directory'] = '../config';
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = '4r3i7DAevUkInv3Kic4rZxSuoBCgaeS0_OjqeRRHv3XozJj_nuljVaJ_fL0lg3tyL2nrrXSAvw';
 
 /**
  * Deployment identifier.
@@ -774,7 +774,7 @@ if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+
+ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+   include $app_root . '/' . $site_path . '/settings.local.php';
+ }
