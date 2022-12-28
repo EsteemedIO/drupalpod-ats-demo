@@ -1,0 +1,78 @@
+uuid: f3c280a0-6e37-4d3c-866c-50353e309840
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ats_placement.field_ats_place_candidate
+    - field.field.node.ats_placement.field_ats_place_date_end
+    - field.field.node.ats_placement.field_ats_place_date_start
+    - field.field.node.ats_placement.field_ats_place_notes
+    - field.field.node.ats_placement.field_ats_place_salary
+    - field.field.node.ats_placement.field_ats_place_status
+    - node.type.ats_placement
+  module:
+    - datetime
+    - user
+_core:
+  default_config_hash: EOxoILvFz-sgaqP_j07qWKLISKgRpAHBDOcSsGTa_f0
+id: node.ats_placement.default
+targetEntityType: node
+bundle: ats_placement
+mode: default
+content:
+  field_ats_place_candidate:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_ats_place_date_end:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: html_date
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_ats_place_date_start:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: html_date
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_ats_place_notes:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_ats_place_salary:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_ats_place_status:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

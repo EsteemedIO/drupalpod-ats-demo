@@ -1,0 +1,22 @@
+uuid: a1196cac-e7dd-4a38-862a-fe51c469f911
+langcode: en
+status: true
+dependencies:
+  module:
+    - ats_candidate
+    - node
+_core:
+  default_config_hash: D6FLOLaQmUfkiExBvZbd6xo9dF_sc9GhKVsyRO-QhVQ
+id: node.field_ats_interview_candidate
+field_name: field_ats_interview_candidate
+entity_type: node
+type: entity_reference
+settings:
+  target_type: ats_candidate
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

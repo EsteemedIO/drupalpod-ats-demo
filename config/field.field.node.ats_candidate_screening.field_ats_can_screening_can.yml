@@ -1,0 +1,28 @@
+uuid: ad322c49-238c-4a1f-8979-b96ea3c499f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_can_screening_can
+    - node.type.ats_candidate_screening
+_core:
+  default_config_hash: 8McSuQOdbjFlx9NOQKG4dfELFKlOsKijEgYhtEnX-X4
+id: node.ats_candidate_screening.field_ats_can_screening_can
+field_name: field_ats_can_screening_can
+entity_type: node
+bundle: ats_candidate_screening
+label: Candidate
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:ats_candidate'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

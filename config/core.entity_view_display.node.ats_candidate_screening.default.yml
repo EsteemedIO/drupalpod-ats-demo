@@ -1,0 +1,68 @@
+uuid: c9d1bca0-95c2-4ace-8f30-8951d3743f60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ats_candidate_screening.field_ats_can_screening_can
+    - field.field.node.ats_candidate_screening.field_ats_can_screening_date
+    - field.field.node.ats_candidate_screening.field_ats_can_screening_notes
+    - field.field.node.ats_candidate_screening.field_ats_can_screening_screener
+    - field.field.node.ats_candidate_screening.field_ats_can_screening_status
+    - node.type.ats_candidate_screening
+  module:
+    - datetime
+    - user
+_core:
+  default_config_hash: ENeimTAnDArC55l5Rh3BXsM1ZxSjnPbSp40LIEe5_9s
+id: node.ats_candidate_screening.default
+targetEntityType: node
+bundle: ats_candidate_screening
+mode: default
+content:
+  field_ats_can_screening_can:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_ats_can_screening_date:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_ats_can_screening_notes:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_ats_can_screening_screener:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_ats_can_screening_status:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

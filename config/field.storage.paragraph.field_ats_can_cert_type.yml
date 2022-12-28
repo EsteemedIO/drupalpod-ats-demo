@@ -1,0 +1,22 @@
+uuid: b57e6f4d-256a-4831-8302-4bb1fca95ac8
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - taxonomy
+_core:
+  default_config_hash: 2jqKP7ZuVvks9rDalGjx_AskJ2hjkGE_yGf0KymHpoQ
+id: paragraph.field_ats_can_cert_type
+field_name: field_ats_can_cert_type
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

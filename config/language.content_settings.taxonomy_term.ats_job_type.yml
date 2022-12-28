@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: CTE1h2GnprtGSxCKiuza0ESyri3fQJjXenJ5uj55F0M
+uuid: 5d8c24d5-afb7-443c-87a4-b477c7817252
+langcode: en
+status: true
+id: taxonomy_term.ats_job_type
+target_entity_type_id: taxonomy_term
+target_bundle: ats_job_type
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,31 @@
+uuid: 8cddb031-eefb-4d10-8486-e80492737837
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_job_status
+    - node.type.ats_job
+    - taxonomy.vocabulary.ats_job_status
+_core:
+  default_config_hash: 18N0oUHj2Bq44tP_fVYy-iY_MS0QhX9c-X3kXIArQXI
+id: node.ats_job.field_ats_job_status
+field_name: field_ats_job_status
+entity_type: node
+bundle: ats_job
+label: Status
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ats_job_status: ats_job_status
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

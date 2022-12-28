@@ -1,0 +1,26 @@
+uuid: 09f84c43-2c74-4ddc-a7e7-543ec3855e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.resume.field_date
+    - field.field.node.resume.field_file
+    - node.type.resume
+  module:
+    - user
+_core:
+  default_config_hash: w1UeiDk3blCnYEf6iGLCyJyOaExxF2j2tnSzI-VjR7o
+id: node.resume.teaser
+targetEntityType: node
+bundle: resume
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_date: true
+  field_file: true

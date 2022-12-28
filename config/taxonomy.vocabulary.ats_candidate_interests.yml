@@ -1,0 +1,10 @@
+uuid: 082ba579-1d57-4410-b7fe-67b63459c871
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tlARPZvuwIdmVzjtaINeTPj3xw552fwViC1VnSsWJmU
+name: 'ATS Candidate Interests'
+vid: ats_candidate_interests
+description: 'Hobbies / Interests of Candidate'
+weight: 0

@@ -1,0 +1,23 @@
+uuid: d5463005-9339-4fe1-8846-ce6a03531e66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ats_can_start_date
+    - paragraphs.paragraphs_type.ats_can_education
+  module:
+    - datetime
+_core:
+  default_config_hash: NsrCH4WH_xmbN7iUcJfoIVlatIQv0Je0sVfQJa-EOp4
+id: paragraph.ats_can_education.field_ats_can_start_date
+field_name: field_ats_can_start_date
+entity_type: paragraph
+bundle: ats_can_education
+label: 'Start date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,51 @@
+uuid: 4b55fae8-cf8c-426a-b866-4dbb1f760ba8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.task.body
+    - field.field.node.task.field_date
+    - field.field.node.task.field_due_date
+    - node.type.task
+  module:
+    - datetime
+    - text
+    - user
+_core:
+  default_config_hash: KV_sFwFMnDzUSlcWOl3kUqX0UuUKsBhMZGmNz3Ig4dA
+id: node.task.default
+targetEntityType: node
+bundle: task
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_date:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_due_date:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 2198a152-dab4-43e0-ae66-3dd3b86d7c9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ats_can_salary_high
+    - paragraphs.paragraphs_type.ats_can_compensation
+_core:
+  default_config_hash: sULzsmqMNVGssDircJg3U_iJC34KMoqAQtTovciDyRM
+id: paragraph.ats_can_compensation.field_ats_can_salary_high
+field_name: field_ats_can_salary_high
+entity_type: paragraph
+bundle: ats_can_compensation
+label: 'High Salary'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

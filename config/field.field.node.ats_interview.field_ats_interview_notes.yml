@@ -1,0 +1,31 @@
+uuid: ba99098e-3f1d-4c61-8087-bec1551d629a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_interview_notes
+    - node.type.ats_interview
+    - node.type.note
+_core:
+  default_config_hash: SQ4j9CYz88VOrr2XM56VVt2DEvLTjMdDFZL67ec6fEU
+id: node.ats_interview.field_ats_interview_notes
+field_name: field_ats_interview_notes
+entity_type: node
+bundle: ats_interview
+label: Notes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      note: note
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

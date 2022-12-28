@@ -1,0 +1,22 @@
+uuid: b4779caa-275f-4d6f-937d-b5e40d58ca9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - ats_candidate
+    - node
+_core:
+  default_config_hash: UZJXz4KJ8mPYRH5IYVZQBeaww4hCWChznkiey03f3wM
+id: node.field_ats_job_candidate
+field_name: field_ats_job_candidate
+entity_type: node
+type: entity_reference
+settings:
+  target_type: ats_candidate
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: BPAn0Qc7Iliy_m_kkvC0H8iaiGKQdDO0qR9CJgLV08g
+uuid: b5908aad-97c0-4da0-a12b-40f21d950a0a
+langcode: en
+status: true
+id: taxonomy_term.ats_file
+target_entity_type_id: taxonomy_term
+target_bundle: ats_file
+default_langcode: site_default
+language_alterable: false

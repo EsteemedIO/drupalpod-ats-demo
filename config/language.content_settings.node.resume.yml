@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: 8pxkcY44gZpcP_nBmDdbNPstl7hDqApxJZz_sIhdqhc
+uuid: f6042906-e925-425e-9c4c-abb8ccab454d
+langcode: en
+status: true
+id: node.resume
+target_entity_type_id: node
+target_bundle: resume
+default_langcode: site_default
+language_alterable: false

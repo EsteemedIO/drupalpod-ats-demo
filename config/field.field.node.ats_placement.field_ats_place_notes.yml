@@ -1,0 +1,31 @@
+uuid: f990324c-24d8-43aa-bdd8-0eda69e3b534
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_place_notes
+    - node.type.ats_placement
+    - node.type.note
+_core:
+  default_config_hash: bGTC7UTQLW5JDCdBtAlOaRLtaOmii4xvbg3AWf2PZM8
+id: node.ats_placement.field_ats_place_notes
+field_name: field_ats_place_notes
+entity_type: node
+bundle: ats_placement
+label: Notes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      note: note
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

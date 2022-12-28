@@ -1,0 +1,31 @@
+uuid: 0e621a6f-0bcb-4327-add8-e6a8e7553851
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_job_organization
+    - node.type.ats_job
+    - node.type.ats_organization
+_core:
+  default_config_hash: M00e0mk5fXtK1_lx1sg5wcKpWfVQ7lifkcFTaaVexZo
+id: node.ats_job.field_ats_job_organization
+field_name: field_ats_job_organization
+entity_type: node
+bundle: ats_job
+label: Organization
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      ats_organization: ats_organization
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: 17e684aa-bc5f-4a03-aa46-4f752c80e030
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: kKGQb1FgbiZEJZ4ePI-4MH2zBLUtCfzc7KLqvswm1n8
+id: node.field_ats_interview_job
+field_name: field_ats_interview_job
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 8d725700-d998-44ba-8482-fabc91a11796
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: 4xDNK_jSNuK89L5XGdkro_jalo5-7sqn28NqpjPaXkY
+name: Manager
+type: ats_manager
+description: 'ATS Manager Content Type.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

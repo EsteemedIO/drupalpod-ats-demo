@@ -1,0 +1,21 @@
+uuid: 0fe3f0e7-5a0c-45bb-bf75-b81b79228b6d
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: dqY5B4mQu9EEWqmxw8DAXQLL8bdzeV98emRMZgrtHSY
+id: node.field_ats_org_website
+field_name: field_ats_org_website
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

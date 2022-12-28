@@ -1,0 +1,21 @@
+uuid: c0a89a64-aca8-4aeb-86b9-5c3b99f1d4be
+langcode: en
+status: true
+dependencies:
+  module:
+    - address
+    - node
+_core:
+  default_config_hash: LclTsEmKdq4gpnvyyubT9-i-6gU3LIesRcVm3WLmTwQ
+id: node.field_ats_job_address
+field_name: field_ats_job_address
+entity_type: node
+type: address
+settings: {  }
+module: address
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

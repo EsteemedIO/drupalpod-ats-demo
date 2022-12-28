@@ -1,0 +1,29 @@
+uuid: 74580dec-d631-4782-8798-2b5f336a0fdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.file
+  module:
+    - file
+_core:
+  default_config_hash: ZXN03roI8jDUY9WGGPWoRn_Ne4SRp_zAhlhc2LR4Prg
+id: node.file.field_file
+field_name: field_file
+entity_type: node
+bundle: file
+label: File
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf docx doc'
+  max_filesize: ''
+  description_field: false
+field_type: file

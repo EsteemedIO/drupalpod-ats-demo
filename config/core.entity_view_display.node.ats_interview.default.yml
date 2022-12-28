@@ -1,0 +1,77 @@
+uuid: ddfbb854-3a4c-40b9-a590-2185f73a8818
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ats_interview.field_ats_interview_candidate
+    - field.field.node.ats_interview.field_ats_interview_date
+    - field.field.node.ats_interview.field_ats_interview_interviewers
+    - field.field.node.ats_interview.field_ats_interview_job
+    - field.field.node.ats_interview.field_ats_interview_notes
+    - field.field.node.ats_interview.field_ats_interview_status
+    - node.type.ats_interview
+  module:
+    - datetime
+    - user
+_core:
+  default_config_hash: T8KKFCVoCct0oUTV0glJ9e9XQvAPnTb2qQPE5eb2ges
+id: node.ats_interview.default
+targetEntityType: node
+bundle: ats_interview
+mode: default
+content:
+  field_ats_interview_candidate:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_ats_interview_date:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_ats_interview_interviewers:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_ats_interview_job:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_ats_interview_notes:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_ats_interview_status:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

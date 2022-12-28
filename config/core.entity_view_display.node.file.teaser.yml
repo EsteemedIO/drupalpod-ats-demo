@@ -1,0 +1,28 @@
+uuid: c8e0130e-369d-4eae-bdb4-efe34ae0dfdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.file.field_date
+    - field.field.node.file.field_file
+    - field.field.node.file.field_file_type
+    - node.type.file
+  module:
+    - user
+_core:
+  default_config_hash: 15bp3BfJANjdvnsq_LP_d0w-L3ST3-z7ap6vcSoV9Ds
+id: node.file.teaser
+targetEntityType: node
+bundle: file
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_date: true
+  field_file: true
+  field_file_type: true

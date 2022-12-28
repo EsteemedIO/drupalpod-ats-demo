@@ -1,0 +1,22 @@
+uuid: 3cf49218-2723-46d0-af4d-22a1819538d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: QPkIo9FhGwOHCuyMUKe66zYdXFZyHqH18bomLm9G8wo
+id: node.field_ats_can_screening_date
+field_name: field_ats_can_screening_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 55601b2f-5e00-40bc-9f75-d37fd09fd2a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ats_can_salary_preferred
+    - paragraphs.paragraphs_type.ats_can_compensation
+_core:
+  default_config_hash: 5FyJ-7gMDBfAzPw5xB48d2t8zwMs8QWqHmUxxtEViJE
+id: paragraph.ats_can_compensation.field_ats_can_salary_preferred
+field_name: field_ats_can_salary_preferred
+entity_type: paragraph
+bundle: ats_can_compensation
+label: 'Preferred Salary'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

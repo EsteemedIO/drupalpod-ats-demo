@@ -1,0 +1,34 @@
+uuid: ac314cc1-f299-49d1-90fd-253beb159f6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ats_job.field_ats_job_address
+    - field.field.node.ats_job.field_ats_job_candidate
+    - field.field.node.ats_job.field_ats_job_description
+    - field.field.node.ats_job.field_ats_job_organization
+    - field.field.node.ats_job.field_ats_job_status
+    - field.field.node.ats_job.field_ats_job_type
+    - node.type.ats_job
+  module:
+    - user
+_core:
+  default_config_hash: v6V3BfjaeUK0IwH8cPk33IoMkJAOiLuSVGIetQjaIdY
+id: node.ats_job.teaser
+targetEntityType: node
+bundle: ats_job
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ats_job_address: true
+  field_ats_job_candidate: true
+  field_ats_job_description: true
+  field_ats_job_organization: true
+  field_ats_job_status: true
+  field_ats_job_type: true

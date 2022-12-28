@@ -1,9 +1,9 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
+  address: 0
   admin_toolbar: 0
-  admin_toolbar_tools: 0
-  ats: 0
+  ats_candidate: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -12,15 +12,15 @@ module:
   ckeditor: 0
   comment: 0
   config: 0
-  config_translation: 0
   contact: 0
   contextual: 0
-  country: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
   entity: 0
+  entity_reference_revisions: 0
+  entityreference_modal_create: 0
   field: 0
   field_ui: 0
   file: 0
@@ -28,9 +28,7 @@ module:
   help: 0
   history: 0
   image: 0
-  language: 0
   link: 0
-  locale: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
@@ -50,8 +48,9 @@ module:
   update: 0
   user: 0
   views_ui: 0
-  content_translation: 10
+  ats: 1
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   olivero: 0

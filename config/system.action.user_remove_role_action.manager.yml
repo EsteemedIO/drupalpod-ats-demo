@@ -1,0 +1,16 @@
+uuid: bfc1415d-5239-420b-ac60-5d70fd2209aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.manager
+  module:
+    - user
+_core:
+  default_config_hash: 1dosWMiV4pv2es8BmW7zZ-h0ISvWrbBCnFj07igKVkU
+id: user_remove_role_action.manager
+label: 'Remove the Manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: manager

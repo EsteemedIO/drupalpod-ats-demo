@@ -1,0 +1,23 @@
+uuid: ec476a8a-7345-45de-8048-61cec827db5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_place_date_end
+    - node.type.ats_placement
+  module:
+    - datetime
+_core:
+  default_config_hash: UT37GoZ6EFsexWcfy7HFtEiqQCetbZf4suUsfHUKcIs
+id: node.ats_placement.field_ats_place_date_end
+field_name: field_ats_place_date_end
+entity_type: node
+bundle: ats_placement
+label: 'Date End'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

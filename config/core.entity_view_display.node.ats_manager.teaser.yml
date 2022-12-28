@@ -1,0 +1,34 @@
+uuid: 890d519f-1814-41e4-90f9-c0c44e858dec
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ats_manager.field_ats_manager_address
+    - field.field.node.ats_manager.field_ats_manager_first_name
+    - field.field.node.ats_manager.field_ats_manager_last_name
+    - field.field.node.ats_manager.field_ats_manager_middle_name
+    - field.field.node.ats_manager.field_ats_manager_organization
+    - field.field.node.ats_manager.field_ats_manager_user_id
+    - node.type.ats_manager
+  module:
+    - user
+_core:
+  default_config_hash: J3lHYrPxdbbjcJm5shP21TZSyQVqmpn1UXXbGuVJiRw
+id: node.ats_manager.teaser
+targetEntityType: node
+bundle: ats_manager
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ats_manager_address: true
+  field_ats_manager_first_name: true
+  field_ats_manager_last_name: true
+  field_ats_manager_middle_name: true
+  field_ats_manager_organization: true
+  field_ats_manager_user_id: true

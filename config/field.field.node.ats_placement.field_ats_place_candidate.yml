@@ -1,0 +1,28 @@
+uuid: f2e7cdad-3f14-47b1-844d-1fcf149d5030
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_place_candidate
+    - node.type.ats_placement
+_core:
+  default_config_hash: yNe0GHbMrezyFdNz8uKsYgTax1fW4b8Kz9kav2RMYto
+id: node.ats_placement.field_ats_place_candidate
+field_name: field_ats_place_candidate
+entity_type: node
+bundle: ats_placement
+label: Candidate
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:ats_candidate'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

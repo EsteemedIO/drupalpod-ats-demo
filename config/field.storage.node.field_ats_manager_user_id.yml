@@ -1,0 +1,22 @@
+uuid: e6cbbadf-8568-4463-b18a-0b573ea65a85
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+_core:
+  default_config_hash: OBD1ZWZqiW9G1pZCXC_qjncneU3Q1PTfN6SRW_YU_OA
+id: node.field_ats_manager_user_id
+field_name: field_ats_manager_user_id
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

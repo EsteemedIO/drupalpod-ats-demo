@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: DEeVgzJN8yYbHdePnuPR99JCZkTS1ZmC0wP3ANEs3pU
+uuid: 2b294198-4c40-4191-b3c8-30f1a3743268
+langcode: en
+status: true
+id: node.note
+target_entity_type_id: node
+target_bundle: note
+default_langcode: site_default
+language_alterable: false

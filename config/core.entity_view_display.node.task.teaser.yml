@@ -1,0 +1,36 @@
+uuid: baf25409-8c55-4124-9c95-9b59f45d4ef8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.task.body
+    - field.field.node.task.field_date
+    - field.field.node.task.field_due_date
+    - node.type.task
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 48R_Yo85MjE1-c8T3AzDDBxbaiCqCRjykYogKFIIZ1Q
+id: node.task.teaser
+targetEntityType: node
+bundle: task
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_date: true
+  field_due_date: true

@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: iFIqx1ov1SC_hRHJSDk05kwe17QVNPbi22NVongVxa0
+uuid: 3fc45b94-e520-469e-a7f5-13801e6cdce9
+langcode: en
+status: true
+id: taxonomy_term.ats_interview_status
+target_entity_type_id: taxonomy_term
+target_bundle: ats_interview_status
+default_langcode: site_default
+language_alterable: false

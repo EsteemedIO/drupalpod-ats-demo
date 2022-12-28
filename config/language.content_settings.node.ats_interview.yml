@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: BZzAkkXM3tFFwNPWK2edX8lw63v-XcICpgFXewRZCMI
+uuid: f4576692-956b-4be4-a37f-30709b94e5a9
+langcode: en
+status: true
+id: node.ats_interview
+target_entity_type_id: node
+target_bundle: ats_interview
+default_langcode: site_default
+language_alterable: false

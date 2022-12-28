@@ -1,0 +1,23 @@
+uuid: baecc9ee-688f-4731-945a-514ca3419cbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.file
+  module:
+    - datetime
+_core:
+  default_config_hash: nfNQvKMrTy0tk00Epo7WfC7NiPwbYI7MHsTYKgCpEs8
+id: node.file.field_date
+field_name: field_date
+entity_type: node
+bundle: file
+label: Date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

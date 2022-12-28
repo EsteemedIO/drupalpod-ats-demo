@@ -1,0 +1,55 @@
+uuid: 221ab7e3-039b-463d-84bc-3345c9258127
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_org_address
+    - node.type.ats_organization
+  module:
+    - address
+_core:
+  default_config_hash: 1DC16wmuGlkkldQlpcOM4ykrVYmWEPVWs1fE8XvE7Yg
+id: node.ats_organization.field_ats_org_address
+field_name: field_ats_org_address
+entity_type: node
+bundle: ats_organization
+label: Address
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    langcode: null
+    country_code: US
+    administrative_area: ''
+    locality: ''
+    dependent_locality: null
+    postal_code: ''
+    sorting_code: null
+    address_line1: ''
+    address_line2: ''
+    organization: ''
+    given_name: ''
+    additional_name: null
+    family_name: ''
+default_value_callback: ''
+settings:
+  available_countries: {  }
+  langcode_override: ''
+  field_overrides:
+    givenName:
+      override: hidden
+    additionalName:
+      override: hidden
+    familyName:
+      override: hidden
+    organization:
+      override: hidden
+    addressLine2:
+      override: hidden
+    sortingCode:
+      override: hidden
+    dependentLocality:
+      override: hidden
+  fields: {  }
+field_type: address

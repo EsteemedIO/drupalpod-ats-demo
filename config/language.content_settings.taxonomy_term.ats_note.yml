@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: NLkhKBR0h3rWgYbzRpBay8x8zT7P7F__Tuh51MkS0JA
+uuid: 8c5ebb3b-5d75-41ac-a148-e66720eb6b5d
+langcode: en
+status: true
+id: taxonomy_term.ats_note
+target_entity_type_id: taxonomy_term
+target_bundle: ats_note
+default_langcode: site_default
+language_alterable: false

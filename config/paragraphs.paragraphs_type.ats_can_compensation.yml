@@ -1,0 +1,12 @@
+uuid: 2d58d1ff-cdcd-41ca-bafc-23dc9184fd8b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KDbXZPKrwk03TBXxhKpm_KoqHx-nDgz9CuOfHLq-U_M
+id: ats_can_compensation
+label: Compensation
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

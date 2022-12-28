@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: cf5qvo0x1dzoZVQoxn-H9RCYNnFUie5lbQSj41Gn0dw
+uuid: fa2a2707-bf24-4581-aad6-2c677fe83019
+langcode: en
+status: true
+id: node.task
+target_entity_type_id: node
+target_bundle: task
+default_langcode: site_default
+language_alterable: false

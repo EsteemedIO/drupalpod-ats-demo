@@ -1,0 +1,31 @@
+uuid: 5806b59c-8a1f-4f76-9ae9-749de1596654
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_can_screening_notes
+    - node.type.ats_candidate_screening
+    - node.type.note
+_core:
+  default_config_hash: Zjwrc9IljraGjecM6JwknPDzgliOz7lnAEXnceGPdw4
+id: node.ats_candidate_screening.field_ats_can_screening_notes
+field_name: field_ats_can_screening_notes
+entity_type: node
+bundle: ats_candidate_screening
+label: Notes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      note: note
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

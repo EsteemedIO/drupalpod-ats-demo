@@ -1,0 +1,21 @@
+uuid: c057cd8e-fb80-4c22-8b01-f98c1e186cd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_org_email
+    - node.type.ats_organization
+_core:
+  default_config_hash: m1gvEU4vcasHnaMACUs5At0Rm_m5jcGSXeTEN1B_NU4
+id: node.ats_organization.field_ats_org_email
+field_name: field_ats_org_email
+entity_type: node
+bundle: ats_organization
+label: Email
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

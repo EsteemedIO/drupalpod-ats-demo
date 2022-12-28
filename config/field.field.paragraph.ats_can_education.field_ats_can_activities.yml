@@ -1,0 +1,21 @@
+uuid: fbfc5bcf-03e7-4389-9264-6e0b583c2c91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ats_can_activities
+    - paragraphs.paragraphs_type.ats_can_education
+_core:
+  default_config_hash: RwlimEGRqajBgNzO4u8cJFU3cyO7Xz96gIjkN_hHxmY
+id: paragraph.ats_can_education.field_ats_can_activities
+field_name: field_ats_can_activities
+entity_type: paragraph
+bundle: ats_can_education
+label: 'Activities and Awards'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,87 @@
+uuid: 9052252f-8517-40a6-bb3d-9112e5eeac44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ats_can_education.field_atc_can_school
+    - field.field.paragraph.ats_can_education.field_ats_can_activities
+    - field.field.paragraph.ats_can_education.field_ats_can_degree
+    - field.field.paragraph.ats_can_education.field_ats_can_edu_description
+    - field.field.paragraph.ats_can_education.field_ats_can_end_date
+    - field.field.paragraph.ats_can_education.field_ats_can_field_of_study
+    - field.field.paragraph.ats_can_education.field_ats_can_grade
+    - field.field.paragraph.ats_can_education.field_ats_can_start_date
+    - paragraphs.paragraphs_type.ats_can_education
+  module:
+    - datetime
+    - text
+_core:
+  default_config_hash: I717cv860gZKwIpfV8y32PKkmbUh0ITRKX7CfmX9gN4
+id: paragraph.ats_can_education.default
+targetEntityType: paragraph
+bundle: ats_can_education
+mode: default
+content:
+  field_atc_can_school:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ats_can_activities:
+    type: string_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ats_can_degree:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ats_can_edu_description:
+    type: text_textarea
+    weight: 7
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ats_can_end_date:
+    type: datetime_default
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ats_can_field_of_study:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ats_can_grade:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ats_can_start_date:
+    type: datetime_default
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,21 @@
+uuid: 866a3aa4-4dc3-4865-a0cc-3c58e06fb78f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ats_can_salary_current
+    - paragraphs.paragraphs_type.ats_can_compensation
+_core:
+  default_config_hash: 2a7PrqBFw_E_WABKW8DZIijVLdv4U4a1TnO1g3qLbOk
+id: paragraph.ats_can_compensation.field_ats_can_salary_current
+field_name: field_ats_can_salary_current
+entity_type: paragraph
+bundle: ats_can_compensation
+label: 'Current Salary'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

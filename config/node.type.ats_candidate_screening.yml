@@ -1,0 +1,20 @@
+uuid: 282a3236-e3c3-4e45-ac26-295a77236266
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: cJeMTULKMLazxUp64tqYTpcWJCYFWcPwynhCui_7IQg
+name: 'Candidate Screening'
+type: ats_candidate_screening
+description: 'ATS Candidate Screening Content Type.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

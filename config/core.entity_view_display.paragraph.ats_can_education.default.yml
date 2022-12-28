@@ -1,0 +1,90 @@
+uuid: 5e98422b-61fb-4cb5-86b2-49ba4d3998d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ats_can_education.field_atc_can_school
+    - field.field.paragraph.ats_can_education.field_ats_can_activities
+    - field.field.paragraph.ats_can_education.field_ats_can_degree
+    - field.field.paragraph.ats_can_education.field_ats_can_edu_description
+    - field.field.paragraph.ats_can_education.field_ats_can_end_date
+    - field.field.paragraph.ats_can_education.field_ats_can_field_of_study
+    - field.field.paragraph.ats_can_education.field_ats_can_grade
+    - field.field.paragraph.ats_can_education.field_ats_can_start_date
+    - paragraphs.paragraphs_type.ats_can_education
+  module:
+    - datetime
+    - text
+_core:
+  default_config_hash: 7XXZmT6CVnzQt_wa0ET3jlqZA6-qfYVdwEKyZeHe-Gg
+id: paragraph.ats_can_education.default
+targetEntityType: paragraph
+bundle: ats_can_education
+mode: default
+content:
+  field_atc_can_school:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_ats_can_activities:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_ats_can_degree:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ats_can_edu_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_ats_can_end_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_ats_can_field_of_study:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_ats_can_grade:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_ats_can_start_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

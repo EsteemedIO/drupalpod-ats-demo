@@ -1,0 +1,12 @@
+uuid: 759e8b74-89af-44fe-9521-62cd3c1b6b6b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wEysBi6EZ4OsTNKY0_bEDuA64DzYZfbiW51EL_BkKcA
+id: ats_can_education
+label: Education
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

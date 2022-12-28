@@ -1,0 +1,10 @@
+uuid: 89402896-a434-4180-9417-4eceb497e11a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zE1amY2wi8r4D5M0Jx5XEDodVKdmsuH9_8MgOYNJ2Hc
+name: 'ATS Job Type'
+vid: ats_job_type
+description: 'ATS Job Type'
+weight: 0

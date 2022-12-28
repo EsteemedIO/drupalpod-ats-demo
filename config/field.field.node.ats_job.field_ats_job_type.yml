@@ -1,0 +1,31 @@
+uuid: 70570799-95a6-4096-a506-1e45d000b6cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_job_type
+    - node.type.ats_job
+    - taxonomy.vocabulary.ats_job_type
+_core:
+  default_config_hash: spW1-QknMze8hDsVc2qm4CnH1t4dDRbwswihkWtmjlk
+id: node.ats_job.field_ats_job_type
+field_name: field_ats_job_type
+entity_type: node
+bundle: ats_job
+label: 'Job Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ats_job_type: ats_job_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

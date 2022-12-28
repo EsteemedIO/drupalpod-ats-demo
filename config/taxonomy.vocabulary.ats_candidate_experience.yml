@@ -1,0 +1,10 @@
+uuid: 829c8318-7097-48db-95c5-5f8e5b6c40cb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SgoryDtrN2Sl_FtG982JmkaFJq_5FaijATI8v8LwDak
+name: 'ATS Candidate Experience'
+vid: ats_candidate_experience
+description: 'ATS Candidate Experience Type.'
+weight: 0

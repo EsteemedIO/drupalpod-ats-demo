@@ -1,0 +1,29 @@
+uuid: 16f4b7fe-a017-404a-830a-aa69a57d8b30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.resume
+  module:
+    - file
+_core:
+  default_config_hash: P4uEEOvZvRNC44O-x1P8UvDLlyeVpZabJQ_AyJdUAxU
+id: node.resume.field_file
+field_name: field_file
+entity_type: node
+bundle: resume
+label: File
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf docx doc'
+  max_filesize: '24 Mb'
+  description_field: false
+field_type: file

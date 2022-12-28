@@ -1,0 +1,21 @@
+uuid: 93e56ad8-94f8-448c-881d-f672214ba773
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ats_can_grade
+    - paragraphs.paragraphs_type.ats_can_education
+_core:
+  default_config_hash: f3GyvoRZuFSdPhp_-bar3p2Xx7RvaBCHfoENutUmPYA
+id: paragraph.ats_can_education.field_ats_can_grade
+field_name: field_ats_can_grade
+entity_type: paragraph
+bundle: ats_can_education
+label: Grade
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

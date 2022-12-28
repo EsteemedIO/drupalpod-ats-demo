@@ -1,0 +1,20 @@
+uuid: 93fdd805-8eb8-4e6f-a44f-446eb27f535e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: shr9ZrvpQIM4-tK5aUXAx_8B6bYWis1-hs_eL5KPFo4
+id: node.field_ats_org_email
+field_name: field_ats_org_email
+entity_type: node
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

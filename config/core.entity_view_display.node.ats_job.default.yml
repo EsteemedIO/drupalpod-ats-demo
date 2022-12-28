@@ -1,0 +1,75 @@
+uuid: 07d26055-3d3d-4f0e-9b6b-53f298ea3f47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ats_job.field_ats_job_address
+    - field.field.node.ats_job.field_ats_job_candidate
+    - field.field.node.ats_job.field_ats_job_description
+    - field.field.node.ats_job.field_ats_job_organization
+    - field.field.node.ats_job.field_ats_job_status
+    - field.field.node.ats_job.field_ats_job_type
+    - node.type.ats_job
+  module:
+    - address
+    - text
+    - user
+_core:
+  default_config_hash: utmyS7Mffny0EeEbkiE8Jb-5Vr91JQrrLSfQMQH2q2Y
+id: node.ats_job.default
+targetEntityType: node
+bundle: ats_job
+mode: default
+content:
+  field_ats_job_address:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_ats_job_candidate:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_ats_job_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_ats_job_organization:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_ats_job_status:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_ats_job_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

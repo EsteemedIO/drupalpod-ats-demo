@@ -1,0 +1,10 @@
+uuid: c0b42760-cbfd-4d41-b23d-b7a3e218de94
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bs07onEziPQKQtCuKYIw3mi73mvA0LE1sCW-OSW7tAM
+name: 'ATS Interview Status'
+vid: ats_interview_status
+description: 'ATS Interview Status'
+weight: 0

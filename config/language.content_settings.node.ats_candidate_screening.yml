@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: nNV0gPf0CQQHoM7qfxT2wgdyf6dAvQTukK4FqX5mrYk
+uuid: abeba9b5-6532-446e-8cbc-218c2e3df029
+langcode: en
+status: true
+id: node.ats_candidate_screening
+target_entity_type_id: node
+target_bundle: ats_candidate_screening
+default_langcode: site_default
+language_alterable: false

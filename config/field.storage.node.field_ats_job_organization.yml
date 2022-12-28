@@ -1,0 +1,21 @@
+uuid: 510ba30d-8c23-4eec-91e7-2166b55f2104
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: _QLwh2k9SoKQdgOXG3YiKs7rv2pQqtMh0m0dzaiWFvY
+id: node.field_ats_job_organization
+field_name: field_ats_job_organization
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

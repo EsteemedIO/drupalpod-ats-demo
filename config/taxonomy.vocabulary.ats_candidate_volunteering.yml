@@ -1,0 +1,10 @@
+uuid: 4884f40a-a305-4655-8410-12cf06f35582
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Y3eIZUzbopCWt-EZY14E9Yv_ZkfUBdsHeccFcPLecpQ
+name: 'ATS Candidate Volunteering'
+vid: ats_candidate_volunteering
+description: 'Taxonomy terms for ATS Candidate Volunteering Type'
+weight: 0

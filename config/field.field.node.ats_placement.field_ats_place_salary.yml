@@ -1,0 +1,21 @@
+uuid: c974fca9-3f16-40a5-a927-e5467660acc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_place_salary
+    - node.type.ats_placement
+_core:
+  default_config_hash: ISOY_N0PhqepDCJFJnk1VhwtmBtkMXpZ4fDYocWaQhI
+id: node.ats_placement.field_ats_place_salary
+field_name: field_ats_place_salary
+entity_type: node
+bundle: ats_placement
+label: Salary
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

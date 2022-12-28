@@ -1,0 +1,10 @@
+uuid: 88c4bd63-909e-4394-a36c-bd75074c20a5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3Pf1vtLDx34e_GDPwm7SWBbp0zoDuAX6Ea6KCGvBVpg
+name: 'ATS Job Status'
+vid: ats_job_status
+description: 'ATS Job Status'
+weight: 0

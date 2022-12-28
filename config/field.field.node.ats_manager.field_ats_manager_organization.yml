@@ -1,0 +1,31 @@
+uuid: bf439594-5bf3-4d1e-89f1-e3b114f6a3ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_manager_organization
+    - node.type.ats_manager
+    - node.type.ats_organization
+_core:
+  default_config_hash: P07iKij3uvVzP1z-7046lPaE29jEyBYcgL4pb0ymf1s
+id: node.ats_manager.field_ats_manager_organization
+field_name: field_ats_manager_organization
+entity_type: node
+bundle: ats_manager
+label: Organization
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      ats_organization: ats_organization
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

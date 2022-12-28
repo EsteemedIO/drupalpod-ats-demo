@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: 9wqxmQPSEHmQic1RtMwJ9fpAGQKOl7-AIp2KK94Mfto
+uuid: e048c9ad-b911-4f6c-9354-f46bafafdf7a
+langcode: en
+status: true
+id: node.ats_manager
+target_entity_type_id: node
+target_bundle: ats_manager
+default_langcode: site_default
+language_alterable: false

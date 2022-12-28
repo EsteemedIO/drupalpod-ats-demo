@@ -1,0 +1,21 @@
+uuid: 9aa2ccd8-7b1f-41b9-881e-8ef8421bff63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_manager_last_name
+    - node.type.ats_manager
+_core:
+  default_config_hash: lZy1GyuD14MHB9lfosQLa5X-o83cjSbwn6QLJPbKOqU
+id: node.ats_manager.field_ats_manager_last_name
+field_name: field_ats_manager_last_name
+entity_type: node
+bundle: ats_manager
+label: 'Last Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

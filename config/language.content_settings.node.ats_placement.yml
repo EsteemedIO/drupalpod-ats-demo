@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: MpbPMNHoCBf0PVYFKDEOfc9y1YnoyZtk-vvhTO_EqrE
+uuid: a2d4baa5-1d0e-460b-a354-b66e232a5f98
+langcode: en
+status: true
+id: node.ats_placement
+target_entity_type_id: node
+target_bundle: ats_placement
+default_langcode: site_default
+language_alterable: false

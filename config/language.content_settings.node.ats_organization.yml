@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: W7EZWiyUz23qt8QJioeJooWko2INXnWmusWBSHt5_wg
+uuid: 3027107d-adc6-4910-b827-5ff4920d271d
+langcode: en
+status: true
+id: node.ats_organization
+target_entity_type_id: node
+target_bundle: ats_organization
+default_langcode: site_default
+language_alterable: false

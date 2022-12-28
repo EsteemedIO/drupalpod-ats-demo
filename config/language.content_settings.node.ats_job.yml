@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: xAkK0iCiie-w9MaNbIraULuk0pAoHFV6_g2_-ujf_8M
+uuid: 8065791f-7ea7-47bc-92c4-fa4b8ce05911
+langcode: en
+status: true
+id: node.ats_job
+target_entity_type_id: node
+target_bundle: ats_job
+default_langcode: site_default
+language_alterable: false

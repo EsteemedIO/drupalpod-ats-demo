@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: w5-OznQmegfJd7z2MS85yybKe6PbiKls8v63s3bGpmA
+uuid: dc9f44a9-754d-4a94-9d4d-21d21f2c27a7
+langcode: en
+status: true
+id: taxonomy_term.ats_job_status
+target_entity_type_id: taxonomy_term
+target_bundle: ats_job_status
+default_langcode: site_default
+language_alterable: false

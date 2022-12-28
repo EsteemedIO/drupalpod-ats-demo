@@ -1,0 +1,23 @@
+uuid: 577c474b-11b3-4a23-b478-883f5a0bbc12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_place_date_start
+    - node.type.ats_placement
+  module:
+    - datetime
+_core:
+  default_config_hash: pYHjf3HMp1KbmDanmGCd7DlR6vcae-3jYKlHGp8dNK4
+id: node.ats_placement.field_ats_place_date_start
+field_name: field_ats_place_date_start
+entity_type: node
+bundle: ats_placement
+label: 'Date Start'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

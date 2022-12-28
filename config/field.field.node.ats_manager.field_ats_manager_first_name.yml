@@ -1,0 +1,21 @@
+uuid: e4544747-c0bd-4b41-b595-20d860e68ab9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_manager_first_name
+    - node.type.ats_manager
+_core:
+  default_config_hash: DeHBD_z2G2YXpOl5VpIdCrAc5noapUf6VCrbEdjEexE
+id: node.ats_manager.field_ats_manager_first_name
+field_name: field_ats_manager_first_name
+entity_type: node
+bundle: ats_manager
+label: 'First Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

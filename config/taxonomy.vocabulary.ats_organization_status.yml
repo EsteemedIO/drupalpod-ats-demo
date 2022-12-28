@@ -1,0 +1,10 @@
+uuid: de97a98c-1c4e-4cfc-8996-c88569165d74
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BiMvHyYJyzUF6Lj4JfgCcXsjT4QbE8tdZRv8f3A2XTA
+name: 'ATS Organization Status'
+vid: ats_organization_status
+description: 'ATS Organization Status type.'
+weight: 0

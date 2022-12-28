@@ -1,0 +1,23 @@
+uuid: d011ed9c-a2ba-4970-9e41-4933e81e9255
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 18gmo_T6E0fvZK2kZVX3t8ASSJIn4B-w2rYBZZRmK-I
+id: paragraph.field_ats_can_grade
+field_name: field_ats_can_grade
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

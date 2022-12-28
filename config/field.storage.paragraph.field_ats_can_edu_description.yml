@@ -1,0 +1,21 @@
+uuid: fc4df763-d719-46d5-afd7-51bcf7356f5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: t2BcW6yEFB2UpwutwGkFO4eeVu5hGsqj3z9Qck9foQY
+id: paragraph.field_ats_can_edu_description
+field_name: field_ats_can_edu_description
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

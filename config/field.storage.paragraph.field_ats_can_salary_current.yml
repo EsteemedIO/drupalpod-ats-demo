@@ -1,0 +1,23 @@
+uuid: 8d30f6c5-896c-4d3f-b603-a4f9137192d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: ZTTT--hRasxZcK95t9rwqVbKL4MI4dZuuO-gQCYpqWw
+id: paragraph.field_ats_can_salary_current
+field_name: field_ats_can_salary_current
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

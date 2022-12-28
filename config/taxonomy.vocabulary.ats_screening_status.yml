@@ -1,0 +1,10 @@
+uuid: 654bd4e3-7fbd-4090-bc90-26db08bb655f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DKl_N02e3-UWq-fbcvN_CVujWPAgNjPIukAd8wRdO0w
+name: 'ATS Screening Status'
+vid: ats_screening_status
+description: 'ATS Screening Status Type.'
+weight: 0

@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: HsGBv_cvO7oHbAb_OVoJYt7KfJ4hztzf3XnIc1Cuwn8
+uuid: 5ef7c4b6-d6cb-4c60-a1ea-fcb61c0c5007
+langcode: en
+status: true
+id: node.file
+target_entity_type_id: node
+target_bundle: file
+default_langcode: site_default
+language_alterable: false

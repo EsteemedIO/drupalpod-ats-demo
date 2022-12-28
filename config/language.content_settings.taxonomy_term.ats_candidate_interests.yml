@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: Bp4wPWGNGrkfKxeBLn52qQttuilQphnG2ocYXxGGW5w
+uuid: e176153d-015f-4a12-aaa0-cdd0796f13dd
+langcode: en
+status: true
+id: taxonomy_term.ats_candidate_interests
+target_entity_type_id: taxonomy_term
+target_bundle: ats_candidate_interests
+default_langcode: site_default
+language_alterable: false

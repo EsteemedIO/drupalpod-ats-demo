@@ -1,0 +1,23 @@
+uuid: 7f726b73-8e0d-4d5b-80e6-4530ae49ac49
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_interview_date
+    - node.type.ats_interview
+  module:
+    - datetime
+_core:
+  default_config_hash: 2TjEnMiXJzdKylyw9d6KzUiVSiuOnJ4aLBupfoKUcfw
+id: node.ats_interview.field_ats_interview_date
+field_name: field_ats_interview_date
+entity_type: node
+bundle: ats_interview
+label: Date
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,21 @@
+uuid: 84b6c600-687f-419f-8b88-4087f2623c4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: lHoFMLYRmDfsVI96xX5ZAouGYlYM3DFxXNwFWSwmOz4
+id: node.field_ats_interview_notes
+field_name: field_ats_interview_notes
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

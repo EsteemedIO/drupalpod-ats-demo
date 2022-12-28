@@ -1,0 +1,57 @@
+uuid: 98f1695c-6645-471d-997f-43cbccf0864b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_manager_address
+    - node.type.ats_manager
+  module:
+    - address
+_core:
+  default_config_hash: _YWgXzzrrYDwss_7aHBaLw4tnTbIW4i4_e54fCvl0f4
+id: node.ats_manager.field_ats_manager_address
+field_name: field_ats_manager_address
+entity_type: node
+bundle: ats_manager
+label: Address
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    langcode: null
+    country_code: US
+    administrative_area: ''
+    locality: ''
+    dependent_locality: null
+    postal_code: ''
+    sorting_code: null
+    address_line1: ''
+    address_line2: ''
+    organization: ''
+    given_name: ''
+    additional_name: null
+    family_name: ''
+default_value_callback: ''
+settings:
+  available_countries: {  }
+  langcode_override: ''
+  field_overrides:
+    givenName:
+      override: hidden
+    additionalName:
+      override: hidden
+    familyName:
+      override: hidden
+    organization:
+      override: hidden
+    addressLine1:
+      override: hidden
+    addressLine2:
+      override: hidden
+    sortingCode:
+      override: hidden
+    dependentLocality:
+      override: hidden
+  fields: {  }
+field_type: address

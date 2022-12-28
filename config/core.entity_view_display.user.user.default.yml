@@ -1,4 +1,4 @@
-uuid: 43fea9c8-48d8-4fbc-a0f9-caf61f705b88
+uuid: 1e355f5a-514d-44d4-8b44-31f84c55c613
 langcode: en
 status: true
 dependencies:
@@ -16,20 +16,17 @@ bundle: user
 mode: default
 content:
   member_for:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
+    weight: 5
     region: content
   user_picture:
     type: image
     label: hidden
     settings:
-      image_link: content
       image_style: thumbnail
+      image_link: content
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
-hidden:
-  langcode: true
+hidden: {  }

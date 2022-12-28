@@ -1,0 +1,22 @@
+uuid: 4ce5a669-05c1-4899-bc76-6a1618d4e380
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: wl3DTl8u7rhrQH80f8eSCwoIE3TtQ0P7c_w9CGpUbb4
+id: node.field_ats_place_date_start
+field_name: field_ats_place_date_start
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

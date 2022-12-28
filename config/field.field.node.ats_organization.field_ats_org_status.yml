@@ -1,0 +1,31 @@
+uuid: d0df1203-9ae1-4c67-bc45-1b41b74360c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_org_status
+    - node.type.ats_organization
+    - taxonomy.vocabulary.ats_organization_status
+_core:
+  default_config_hash: lI4BfuDbITOObIUrEij1FuTjL1AYdMoJXW0oZ10hHq0
+id: node.ats_organization.field_ats_org_status
+field_name: field_ats_org_status
+entity_type: node
+bundle: ats_organization
+label: Status
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ats_organization_status: ats_organization_status
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

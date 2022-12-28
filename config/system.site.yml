@@ -1,14 +1,14 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 0e38150d-c37f-4990-9d0e-160e6875637d
-name: 'ATS demo site'
-mail: admin@example.com
+uuid: 089496b2-3f83-48ab-a301-237c710a022d
+name: 'Esteemed ATS Standard'
+mail: a.novak@esteemed.io
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/1
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

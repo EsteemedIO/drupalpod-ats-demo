@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: iRaZ9xfdALXgiojLz5NXP0-3SnW_cBik0y0r5gHbFAw
+uuid: 58a2529e-9cac-40ec-a6a3-d0b7af4b4765
+langcode: en
+status: true
+id: taxonomy_term.ats_candidate_experience
+target_entity_type_id: taxonomy_term
+target_bundle: ats_candidate_experience
+default_langcode: site_default
+language_alterable: false

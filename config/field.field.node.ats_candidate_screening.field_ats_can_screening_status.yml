@@ -1,0 +1,31 @@
+uuid: afe3683f-069f-4558-abd0-6db38849f60c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_can_screening_status
+    - node.type.ats_candidate_screening
+    - taxonomy.vocabulary.ats_screening_status
+_core:
+  default_config_hash: oA6avVMT5e5Kq2a95dfThvfF1rtSkio5FDM38jY9ceQ
+id: node.ats_candidate_screening.field_ats_can_screening_status
+field_name: field_ats_can_screening_status
+entity_type: node
+bundle: ats_candidate_screening
+label: Status
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ats_screening_status: ats_screening_status
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

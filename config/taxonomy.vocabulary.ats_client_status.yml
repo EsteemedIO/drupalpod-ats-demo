@@ -1,8 +1,0 @@
-uuid: 2cfbc2d4-e75b-434c-8800-f4ee3d8327f4
-langcode: en
-status: true
-dependencies: {  }
-name: 'ATS Client Status'
-vid: ats_client_status
-description: ''
-weight: 0

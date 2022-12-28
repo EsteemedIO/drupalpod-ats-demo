@@ -1,0 +1,32 @@
+uuid: c970346f-463f-482b-aeaf-3a75930aca6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ats_candidate_screening.field_ats_can_screening_can
+    - field.field.node.ats_candidate_screening.field_ats_can_screening_date
+    - field.field.node.ats_candidate_screening.field_ats_can_screening_notes
+    - field.field.node.ats_candidate_screening.field_ats_can_screening_screener
+    - field.field.node.ats_candidate_screening.field_ats_can_screening_status
+    - node.type.ats_candidate_screening
+  module:
+    - user
+_core:
+  default_config_hash: gtsDwPSDT0B-TyGb1aKrfhWu-NHTwgcst69CAZ8rAro
+id: node.ats_candidate_screening.teaser
+targetEntityType: node
+bundle: ats_candidate_screening
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ats_can_screening_can: true
+  field_ats_can_screening_date: true
+  field_ats_can_screening_notes: true
+  field_ats_can_screening_screener: true
+  field_ats_can_screening_status: true

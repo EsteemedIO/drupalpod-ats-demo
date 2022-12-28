@@ -1,0 +1,12 @@
+uuid: 6b0918f4-b34e-4d73-82b9-584affcebf58
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pDhmlqW4yzxHtUGulDzEHdQi9NJSM1lCS2pEOEmSoSc
+id: ats_can_certifications
+label: Certification
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

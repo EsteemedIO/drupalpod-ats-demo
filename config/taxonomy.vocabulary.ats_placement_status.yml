@@ -1,0 +1,10 @@
+uuid: ec754f6e-1a0d-4596-911a-28e6d961b5ad
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rbRcOt91zcVAZNtgEmRdBt1EnOYTXPb8cYNbyD9Lxx0
+name: 'ATS Placement Status'
+vid: ats_placement_status
+description: 'ATS Placement Status Type'
+weight: 0

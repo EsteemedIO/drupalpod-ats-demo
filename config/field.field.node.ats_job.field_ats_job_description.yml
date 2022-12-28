@@ -1,0 +1,23 @@
+uuid: 0de9262c-a152-42a0-b7f1-31fb25af8984
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_job_description
+    - node.type.ats_job
+  module:
+    - text
+_core:
+  default_config_hash: qoXUeT3qNtadGQytIpI6_YDBQ2Jr-_9H29_hyCjd7fw
+id: node.ats_job.field_ats_job_description
+field_name: field_ats_job_description
+entity_type: node
+bundle: ats_job
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

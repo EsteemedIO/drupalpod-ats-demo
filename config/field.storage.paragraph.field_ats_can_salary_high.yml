@@ -1,0 +1,23 @@
+uuid: 6c89a134-b83c-4275-acf6-44310ebef2f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 8PUwNRwa6OYcFlXUEP9yvx5vRp_85VN3Bh7K8G6e33A
+id: paragraph.field_ats_can_salary_high
+field_name: field_ats_can_salary_high
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

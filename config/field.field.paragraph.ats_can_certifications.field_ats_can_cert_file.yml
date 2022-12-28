@@ -1,0 +1,29 @@
+uuid: 398adbf2-88f7-45bf-bbf8-e986e1ee067c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ats_can_cert_file
+    - paragraphs.paragraphs_type.ats_can_certifications
+  module:
+    - file
+_core:
+  default_config_hash: n137Fa-ElEqT--hDuc72YxeSYhKqu9EaADtXgT3L3GU
+id: paragraph.ats_can_certifications.field_ats_can_cert_file
+field_name: field_ats_can_cert_file
+entity_type: paragraph
+bundle: ats_can_certifications
+label: File
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf jpeg png jpg'
+  max_filesize: '24'
+  description_field: false
+field_type: file

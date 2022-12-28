@@ -1,0 +1,11 @@
+uuid: 799b12bd-7603-41d6-a761-614ae83c4681
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: d1KaOnZkTWtnqdad_rwMgD2BZGwidguYJSuFCIedFdQ
+id: manager
+label: Manager
+weight: 4
+is_admin: null
+permissions: {  }

@@ -1,0 +1,21 @@
+uuid: 65cf7c45-9488-432e-8e0a-bdc78737748a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ats_can_salary_low
+    - paragraphs.paragraphs_type.ats_can_compensation
+_core:
+  default_config_hash: JGgaI2jcb6nVxDi8uLpFPtFQDiWeOko6_kotY0-kvHM
+id: paragraph.ats_can_compensation.field_ats_can_salary_low
+field_name: field_ats_can_salary_low
+entity_type: paragraph
+bundle: ats_can_compensation
+label: 'Low Salary'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

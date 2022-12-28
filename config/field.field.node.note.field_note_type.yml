@@ -1,0 +1,31 @@
+uuid: c9a6c7e9-c5ea-4dbf-964d-4adbf321184a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_note_type
+    - node.type.note
+    - taxonomy.vocabulary.ats_note
+_core:
+  default_config_hash: fs79dHzyurv95O2PKSh16Eebw9vVJrGl18GqjW_u7ZA
+id: node.note.field_note_type
+field_name: field_note_type
+entity_type: node
+bundle: note
+label: 'Note Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ats_note: ats_note
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

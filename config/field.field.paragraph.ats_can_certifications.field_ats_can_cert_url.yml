@@ -1,0 +1,25 @@
+uuid: 5a71bbbf-6949-4288-9d54-fa630a6c3c6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ats_can_cert_url
+    - paragraphs.paragraphs_type.ats_can_certifications
+  module:
+    - link
+_core:
+  default_config_hash: N27Gyrt4iNY6uz-qhPmRkp1jiovD5rdcUqPNdx9gUGM
+id: paragraph.ats_can_certifications.field_ats_can_cert_url
+field_name: field_ats_can_cert_url
+entity_type: paragraph
+bundle: ats_can_certifications
+label: 'Certification URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

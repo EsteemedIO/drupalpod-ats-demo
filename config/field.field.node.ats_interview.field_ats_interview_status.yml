@@ -1,0 +1,31 @@
+uuid: 4ac4d1f9-d49a-4df4-a908-286af6fa546c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_interview_status
+    - node.type.ats_interview
+    - taxonomy.vocabulary.ats_interview_status
+_core:
+  default_config_hash: af8SfBSFuFUNj_nwDADpc0oT3PmbL4dS6ZQY7PbOqW4
+id: node.ats_interview.field_ats_interview_status
+field_name: field_ats_interview_status
+entity_type: node
+bundle: ats_interview
+label: Status
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ats_interview_status: ats_interview_status
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

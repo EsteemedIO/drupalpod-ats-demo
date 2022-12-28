@@ -1,0 +1,75 @@
+uuid: cccc8a91-c7bd-4976-9aaf-f5b659c27983
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ats_manager.field_ats_manager_address
+    - field.field.node.ats_manager.field_ats_manager_first_name
+    - field.field.node.ats_manager.field_ats_manager_last_name
+    - field.field.node.ats_manager.field_ats_manager_middle_name
+    - field.field.node.ats_manager.field_ats_manager_organization
+    - field.field.node.ats_manager.field_ats_manager_user_id
+    - node.type.ats_manager
+  module:
+    - address
+    - user
+_core:
+  default_config_hash: W-4y2Ysj1UxUOFbuYA55F7LqcX2GF9xv6K_Sfd7f9ZM
+id: node.ats_manager.default
+targetEntityType: node
+bundle: ats_manager
+mode: default
+content:
+  field_ats_manager_address:
+    type: address_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_ats_manager_first_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_ats_manager_last_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_ats_manager_middle_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_ats_manager_organization:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_ats_manager_user_id:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

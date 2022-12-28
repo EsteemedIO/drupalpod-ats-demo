@@ -1,0 +1,10 @@
+uuid: 7fecec5b-b6bf-4919-a199-49879be4ddbb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ExNLDyRQ5JuG1KpO1rjmU1P5qplj-CIrytJ3XNvL85Q
+name: 'ATS File'
+vid: ats_file
+description: 'ATS File type'
+weight: 0

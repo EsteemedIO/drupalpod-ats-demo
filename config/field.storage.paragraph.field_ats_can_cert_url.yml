@@ -1,0 +1,21 @@
+uuid: 7b2c8311-5277-4cbc-97e5-8cd77d54d66f
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+_core:
+  default_config_hash: XH-M26m5J6OQ1ZSF47muZJwkvWvR_byXd_bm8fLQy6s
+id: paragraph.field_ats_can_cert_url
+field_name: field_ats_can_cert_url
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

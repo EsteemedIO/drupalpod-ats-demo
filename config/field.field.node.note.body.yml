@@ -1,0 +1,25 @@
+uuid: 3ea042b7-9bcd-41af-a991-a8fe8bf760d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.note
+  module:
+    - text
+_core:
+  default_config_hash: LHkvroBfQu5ltakd6ShyapZXBF5o9SC4HMrvIIr4SXM
+id: node.note.body
+field_name: body
+entity_type: node
+bundle: note
+label: Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

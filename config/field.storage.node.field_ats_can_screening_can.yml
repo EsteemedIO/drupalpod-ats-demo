@@ -1,0 +1,22 @@
+uuid: 47f213d4-1923-4cb6-bef6-a5755e8fc5f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - ats_candidate
+    - node
+_core:
+  default_config_hash: raJMrxPNHTXNLiafyTCJnyyy0IdOaGMBzaoxdOrsSC0
+id: node.field_ats_can_screening_can
+field_name: field_ats_can_screening_can
+entity_type: node
+type: entity_reference
+settings:
+  target_type: ats_candidate
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

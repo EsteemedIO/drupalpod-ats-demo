@@ -1,0 +1,10 @@
+uuid: f3de747d-d523-4399-82b6-34e2ad12c25a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3zSN1038seQXH9l0Q2D62vIaT5FfLrzcoetbD0dKng4
+name: 'ATS Certification Type'
+vid: ats_certification_type
+description: 'ATS Certification Type'
+weight: 0

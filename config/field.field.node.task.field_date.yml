@@ -1,0 +1,23 @@
+uuid: 99b1c257-3b1f-4a83-bb2c-6f4ba26acfa6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.task
+  module:
+    - datetime
+_core:
+  default_config_hash: 9GIMsjXEOvqKG8c57miI14S1-4sewOn1pbKZFhBDqlU
+id: node.task.field_date
+field_name: field_date
+entity_type: node
+bundle: task
+label: Date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,32 @@
+uuid: ba9d33d1-76f0-4ce6-acc0-8858f69b5012
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ats_organization.field_ats_org_address
+    - field.field.node.ats_organization.field_ats_org_email
+    - field.field.node.ats_organization.field_ats_org_name
+    - field.field.node.ats_organization.field_ats_org_status
+    - field.field.node.ats_organization.field_ats_org_website
+    - node.type.ats_organization
+  module:
+    - user
+_core:
+  default_config_hash: jrASg_odFzt9tCYvj6B9xHQeWM5WeJXY7gmZcpGuV2o
+id: node.ats_organization.teaser
+targetEntityType: node
+bundle: ats_organization
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ats_org_address: true
+  field_ats_org_email: true
+  field_ats_org_name: true
+  field_ats_org_status: true
+  field_ats_org_website: true

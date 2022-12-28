@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: X62ja1_R8soBIeENgZvyC3sPqMO6qQDXW1lMCA0qQC0
+uuid: c0b924d0-9738-4df0-81a8-d84570ff6c09
+langcode: en
+status: true
+id: taxonomy_term.ats_organization_status
+target_entity_type_id: taxonomy_term
+target_bundle: ats_organization_status
+default_langcode: site_default
+language_alterable: false

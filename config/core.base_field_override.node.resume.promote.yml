@@ -1,0 +1,24 @@
+uuid: 92a5fe64-fffe-42ae-9682-309e35d5a896
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.resume
+_core:
+  default_config_hash: 7UMiqBHzC3ROn-x4hLbhDbfsr2DJS4t5P8WO9T64SkA
+id: node.resume.promote
+field_name: promote
+entity_type: node
+bundle: resume
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

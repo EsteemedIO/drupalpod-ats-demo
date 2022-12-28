@@ -1,0 +1,31 @@
+uuid: 48de3a60-9782-4f87-bdc1-47ba43688036
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_can_screening_screener
+    - node.type.ats_candidate_screening
+    - node.type.ats_manager
+_core:
+  default_config_hash: cZc-8eqU9i-sDyB-vY3JA1B9KRCBbWwghHtEJcrdpdE
+id: node.ats_candidate_screening.field_ats_can_screening_screener
+field_name: field_ats_can_screening_screener
+entity_type: node
+bundle: ats_candidate_screening
+label: Screener
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      ats_manager: ats_manager
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

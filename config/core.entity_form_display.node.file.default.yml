@@ -1,0 +1,88 @@
+uuid: 2478c5c0-12f6-4317-a0c4-dcfa541ceeb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.file.field_date
+    - field.field.node.file.field_file
+    - field.field.node.file.field_file_type
+    - node.type.file
+  module:
+    - datetime
+    - file
+    - path
+_core:
+  default_config_hash: 9-dWKDsJHRMZUnifgF9ZPTcKmHHD4AAOsdCTYHFmCFY
+id: node.file.default
+targetEntityType: node
+bundle: file
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_date:
+    type: datetime_default
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_file:
+    type: file_generic
+    weight: 7
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_file_type:
+    type: entity_reference_autocomplete
+    weight: 9
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  title: true

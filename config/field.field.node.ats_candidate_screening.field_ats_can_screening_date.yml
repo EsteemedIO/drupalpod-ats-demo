@@ -1,0 +1,23 @@
+uuid: 57c83bdb-0266-4e40-a2ae-abd724b27cbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ats_can_screening_date
+    - node.type.ats_candidate_screening
+  module:
+    - datetime
+_core:
+  default_config_hash: ANohkZU8xg1h_dsxWkRSrymGtKE0ud1JK_-zZwcHrwM
+id: node.ats_candidate_screening.field_ats_can_screening_date
+field_name: field_ats_can_screening_date
+entity_type: node
+bundle: ats_candidate_screening
+label: Date
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,50 @@
+uuid: 84f2027d-90cb-4bf5-bfe3-de198f082851
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ats_can_compensation.field_ats_can_salary_current
+    - field.field.paragraph.ats_can_compensation.field_ats_can_salary_high
+    - field.field.paragraph.ats_can_compensation.field_ats_can_salary_low
+    - field.field.paragraph.ats_can_compensation.field_ats_can_salary_preferred
+    - paragraphs.paragraphs_type.ats_can_compensation
+_core:
+  default_config_hash: oe8OqoJkVhP1pj9fsf2sRyAqtGO6JdcacRC7ozFRMq0
+id: paragraph.ats_can_compensation.default
+targetEntityType: paragraph
+bundle: ats_can_compensation
+mode: default
+content:
+  field_ats_can_salary_current:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_ats_can_salary_high:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_ats_can_salary_low:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ats_can_salary_preferred:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

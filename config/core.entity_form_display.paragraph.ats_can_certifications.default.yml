@@ -1,0 +1,47 @@
+uuid: 3ad95578-c3f2-4ec8-97ba-763afd7f37c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ats_can_certifications.field_ats_can_cert_file
+    - field.field.paragraph.ats_can_certifications.field_ats_can_cert_type
+    - field.field.paragraph.ats_can_certifications.field_ats_can_cert_url
+    - paragraphs.paragraphs_type.ats_can_certifications
+  module:
+    - file
+    - link
+_core:
+  default_config_hash: dxVbzqGx3ilXu2jsu0bTeirB9Es0QuQ_pcxg2ZhuNqQ
+id: paragraph.ats_can_certifications.default
+targetEntityType: paragraph
+bundle: ats_can_certifications
+mode: default
+content:
+  field_ats_can_cert_file:
+    type: file_generic
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_ats_can_cert_type:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ats_can_cert_url:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

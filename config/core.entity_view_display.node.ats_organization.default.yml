@@ -1,0 +1,70 @@
+uuid: cf2db77b-a2d9-4ea8-a6eb-46c9ffd7c007
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ats_organization.field_ats_org_address
+    - field.field.node.ats_organization.field_ats_org_email
+    - field.field.node.ats_organization.field_ats_org_name
+    - field.field.node.ats_organization.field_ats_org_status
+    - field.field.node.ats_organization.field_ats_org_website
+    - node.type.ats_organization
+  module:
+    - address
+    - link
+    - user
+_core:
+  default_config_hash: ZMbHMwQY_AyPi8DKHyJhxZskU2IU8eFFMsIm_Wz5Mjk
+id: node.ats_organization.default
+targetEntityType: node
+bundle: ats_organization
+mode: default
+content:
+  field_ats_org_address:
+    type: address_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_ats_org_email:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_ats_org_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_ats_org_status:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_ats_org_website:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

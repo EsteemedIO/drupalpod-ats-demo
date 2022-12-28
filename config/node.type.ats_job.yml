@@ -1,0 +1,20 @@
+uuid: 393f441b-3d17-4eea-979b-3cd7faaf2fbf
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: 3_AluprP2ggpKrAvz97jOODcEfZeCz641FDDNkeNQXc
+name: Job
+type: ats_job
+description: 'ATS Job Content Type.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,10 @@
+uuid: 329dc1aa-8458-40df-8488-2b33ecf97130
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8FDvkyKhANMxEj0ImVlnQ5Chnd2K7yqnFLNmOopfGlA
+name: 'ATS Note'
+vid: ats_note
+description: 'ATS Note type.'
+weight: 0
